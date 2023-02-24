@@ -25,7 +25,7 @@
 		040EC790296DE13700980D8C /* OrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
 		042A155B296DDA3E00314394 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		0459278A296E03ED007073B2 /* DeliveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryViewController.swift; sourceTree = "<group>"; };
-		04C37979296892B600D03FBC /* Homework4_M3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework4_M3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C37979296892B600D03FBC /* food-delivery-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "food-delivery-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C3797C296892B600D03FBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04C3797E296892B600D03FBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		04C37980296892B600D03FBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		04C37970296892B500D03FBC = {
 			isa = PBXGroup;
 			children = (
-				04C3797B296892B600D03FBC /* Homework4_M3 */,
+				04C3797B296892B600D03FBC /* food-delivery-app */,
 				04C3797A296892B600D03FBC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,12 +60,12 @@
 		04C3797A296892B600D03FBC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04C37979296892B600D03FBC /* Homework4_M3.app */,
+				04C37979296892B600D03FBC /* food-delivery-app.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		04C3797B296892B600D03FBC /* Homework4_M3 */ = {
+		04C3797B296892B600D03FBC /* food-delivery-app */ = {
 			isa = PBXGroup;
 			children = (
 				04C3797C296892B600D03FBC /* AppDelegate.swift */,
@@ -82,15 +82,15 @@
 				040EC790296DE13700980D8C /* OrderCell.swift */,
 				0459278A296E03ED007073B2 /* DeliveryViewController.swift */,
 			);
-			path = Homework4_M3;
+			path = "food-delivery-app";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		04C37978296892B500D03FBC /* Homework4_M3 */ = {
+		04C37978296892B500D03FBC /* food-delivery-app */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04C3798D296892B800D03FBC /* Build configuration list for PBXNativeTarget "Homework4_M3" */;
+			buildConfigurationList = 04C3798D296892B800D03FBC /* Build configuration list for PBXNativeTarget "food-delivery-app" */;
 			buildPhases = (
 				04C37975296892B500D03FBC /* Sources */,
 				04C37976296892B500D03FBC /* Frameworks */,
@@ -100,9 +100,9 @@
 			);
 			dependencies = (
 			);
-			name = Homework4_M3;
+			name = "food-delivery-app";
 			productName = Homework4_M3;
-			productReference = 04C37979296892B600D03FBC /* Homework4_M3.app */;
+			productReference = 04C37979296892B600D03FBC /* food-delivery-app.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -120,7 +120,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 04C37974296892B500D03FBC /* Build configuration list for PBXProject "Homework4_M3" */;
+			buildConfigurationList = 04C37974296892B500D03FBC /* Build configuration list for PBXProject "food-delivery-app" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -133,7 +133,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				04C37978296892B500D03FBC /* Homework4_M3 */,
+				04C37978296892B500D03FBC /* food-delivery-app */,
 			);
 		};
 /* End PBXProject section */
@@ -312,7 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Homework4_M3/Info.plist;
+				INFOPLIST_FILE = "food-delivery-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -323,7 +323,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "geekTech.Homework4-M3";
+				PRODUCT_BUNDLE_IDENTIFIER = "geekTech.food-delivery-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -339,7 +339,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Homework4_M3/Info.plist;
+				INFOPLIST_FILE = "food-delivery-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -350,7 +350,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "geekTech.Homework4-M3";
+				PRODUCT_BUNDLE_IDENTIFIER = "geekTech.food-delivery-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -361,7 +361,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04C37974296892B500D03FBC /* Build configuration list for PBXProject "Homework4_M3" */ = {
+		04C37974296892B500D03FBC /* Build configuration list for PBXProject "food-delivery-app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04C3798B296892B800D03FBC /* Debug */,
@@ -370,7 +370,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04C3798D296892B800D03FBC /* Build configuration list for PBXNativeTarget "Homework4_M3" */ = {
+		04C3798D296892B800D03FBC /* Build configuration list for PBXNativeTarget "food-delivery-app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04C3798E296892B800D03FBC /* Debug */,
